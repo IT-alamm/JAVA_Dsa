@@ -1,4 +1,4 @@
-package Array;
+// package Array;
 
 public class reverseArr {
     public static void reverseArr(int number[]){
@@ -12,15 +12,19 @@ public class reverseArr {
             last--;
            
         }
+        for(int i = 0; i<number.length; i++){
+            System.out.print(number[i] +"  ");
+         }
+        
         
     }
 
     public static void main(String[] args) {
         int number[] = {2, 4, 5, 8, 9, 7};
          reverseArr(number);
-         for(int i = 0; i<number.length; i++){
-            System.out.print(number[i] +"  ");
-         }
+        //  for(int i = 0; i<number.length; i++){
+        //     System.out.print(number[i] +"  ");
+        //  }
         //  System.out.println();
     }
 }
