@@ -1,4 +1,4 @@
-package Array;
+// package Array;
 
 public class kadaneAlgo {
     public static void kadanes(int number[]){

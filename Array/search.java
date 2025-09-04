@@ -1,9 +1,7 @@
-package Array;
+// package Array;
 
 public class search {
     public class Search {
-    
-
 
         public static int LinrSearch(int numbers[], int key){
             for(int i=0; i<numbers.length; i++){
@@ -11,11 +9,8 @@ public class search {
                     return i;
     
                 }
-    
-    
             }
             return -1;
-    
         }
     
         public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Array;
+// package Array;
 
 public class pair {
     public static void printPair(int number[]){
@@ -6,12 +6,9 @@ public class pair {
            int curr = number[i];
            for(int j = i+1; j<number.length; j++){
             System.out.print("(" + curr + "," + number[j] + ")");
-            
            }
            System.out.println();
         }
-        
-
     }
 
 

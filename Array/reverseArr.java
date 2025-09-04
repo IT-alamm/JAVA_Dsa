@@ -12,19 +12,23 @@ public class reverseArr {
             last--;
            
         }
+    }
+    public static void printArray(int number[]){
         for(int i = 0; i<number.length; i++){
             System.out.print(number[i] +"  ");
          }
-        
-        
     }
 
     public static void main(String[] args) {
-        int number[] = {2, 4, 5, 8, 9, 7};
+        int number[] = {1, 2, 3, 5, 3, 2, 1};
+
+       
          reverseArr(number);
-        //  for(int i = 0; i<number.length; i++){
-        //     System.out.print(number[i] +"  ");
-        //  }
-        //  System.out.println();
+         printArray(number);
+         
+
+    
+       
+        
     }
 }

@@ -1,4 +1,4 @@
-package Array;
+// package Array;
 public class maxSubbArr {
 
     public static void maxSubbArray(int number[]){
@@ -22,7 +22,6 @@ public class maxSubbArr {
 
             }
         }
-
         System.out.println("Max no. : " +maxSum);
     }
 

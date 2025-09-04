@@ -1,4 +1,4 @@
-package Array;
+// package Array;
 
 public class printSubbArr {
     public static void PrintSubbArray(int number[]){
