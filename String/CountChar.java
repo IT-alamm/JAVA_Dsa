@@ -8,7 +8,7 @@ public class CountChar {
         // for user input values 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string is : ");
-        String alpha = sc.next();
+        String alpha = sc.nextLine();
         int length = alpha.length();
         System.out.println(length);
 
