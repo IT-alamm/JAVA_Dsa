@@ -14,7 +14,7 @@ public class maxSubbArr {
                     currSum += number[k];
 
                 }
-                System.out.println(currSum);
+                System.out.print(currSum +" ");
                 if(maxSum < currSum){
                     maxSum = currSum;
 
@@ -22,7 +22,7 @@ public class maxSubbArr {
 
             }
         }
-        System.out.println("Max no. : " +maxSum);
+        System.out.print("Max no. : " +maxSum);
     }
 
     public static void main(String[] args) {

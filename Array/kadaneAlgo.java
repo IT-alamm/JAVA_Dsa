@@ -6,6 +6,7 @@ public class kadaneAlgo {
         int ms = Integer.MIN_VALUE;
         for(int i = 0; i<number.length; i++){
             cs = cs + number[i];
+            System.out.println(cs);
             if(cs < 0){
                 cs = 0;
             }
